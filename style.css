@@ -61,7 +61,7 @@ main {
 .paragraph {
   font-weight: 400;
   font-size: 2rem;
-  line-height: 1.5rem;
+  line-height: 1.9rem;
   font-family: var(--ff-texting);
   color: var(--fc-paragraphs);
   margin: 0.6rem 0 7rem 0;
