@@ -72,6 +72,7 @@ main {
   width: 100%;
   height: auto;
   object-fit: cover;
+  animation: uptop 700ms 350ms backwards;
 }
 
 .sub-paragraphs {
@@ -87,8 +88,34 @@ main {
   padding: 0.1rem 2.4rem;
   border-radius: 2rem;
   background: var(--bg-tertiary-color);
+
+  animation: topdown 700ms;
 }
 
 .card {
   position: relative;
+}
+
+@keyframes topdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes uptop {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
