@@ -27,13 +27,19 @@ body {
 
 .page {
   margin: 0 auto;
-  max-width: 38.4rem;
+  max-width: 42.8rem;
+}
+
+@media (min-width: 700px) {
+  .page {
+    max-width: 110rem;
+  }
 }
 
 header {
   text-align: center;
   background: var(--bg-primary-color);
-  width: 38.4rem;
+  max-width: 42.8rem;
   height: 28rem;
 }
 
