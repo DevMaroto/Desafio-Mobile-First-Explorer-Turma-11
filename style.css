@@ -124,6 +124,7 @@ h1 {
   }
 }
 
+/*Removendo o paragrafo e o footer entre 1px ate 900px, volta no desktop*/
 @media (min-width: 1px) and (max-width: 900px) {
   #header-paragraph,
   footer {
