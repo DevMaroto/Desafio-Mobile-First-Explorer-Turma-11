@@ -221,9 +221,9 @@ h1 {
 
   .wrapper-cards-and-paragraph {
     grid-template-areas:
-      "A B E"
+      "A B C"
       "D B E"
-      "D F C";
+      "D F E";
     margin: 6.4rem 9.8rem 0;
   }
 
